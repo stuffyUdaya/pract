@@ -1,0 +1,11 @@
+<div class="card">
+    <p>{{title}} works</p>
+    <div class='flex-container'>
+    <div class='flex-content' *ngFor="let card of cards">
+        <img [src]="card.imageUrl" alt="image">
+        <p>{{card.imageUrl}}</p>
+        <p>{{card.content}}</p>
+    </div>
+    </div>
+    <div class="box"></div>
+</div>

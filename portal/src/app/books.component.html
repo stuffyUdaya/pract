@@ -1,0 +1,11 @@
+<div>
+   
+    <div class='flex-container'>
+    <div class='flex-content' *ngFor="let book of books">
+        <img [src]="book.bookUrl" alt="image" (click)='onClick(book.bookName)'>
+        <p>{{book.bookName}}</p>
+        <p>{{book.bookRating}}</p>
+    </div>
+</div>
+    
+</div>

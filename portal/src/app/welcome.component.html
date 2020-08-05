@@ -1,0 +1,7 @@
+<div style="color:coral">
+    Welcome to learning site...
+    <input type="text"  [(ngModel)]="name" >
+    
+    <h1>{{name1}}</h1>
+    <app-books [message]='name1' (bookClicked)='clicked($event)'></app-books>
+</div>
